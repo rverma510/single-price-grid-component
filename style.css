@@ -1,3 +1,77 @@
-section {
-    border: 2px solid black;
+html {
+    font-family: 'Karla', sans-serif;
 }
+
+body {
+    padding: 20px;
+    background-color: #005582;
+    color:#979aaa
+}
+
+.wrapper {
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 70%;
+    margin: 0 auto;  
+}
+
+section {
+    padding: 5%;
+}
+
+.community h2{
+    color: #0086ad;
+}
+.community p:nth-child(2) {
+    color: 	#ffd924;
+    font-weight: bold;
+}
+
+.subscription {
+    background-color:#0086ad;
+}
+
+.subscription h2{
+    color: hsl(204, 43%, 93%);
+}
+
+.subscription .amount {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.subscription a {
+    background-color: #ffd924;
+    display: block;
+    text-decoration: none;
+    width: 30%;
+    margin: 0 auto;
+    padding: 2%;
+    border-radius: 4px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.why-us {
+    background-color: #00c2c7;
+}
+
+.why-us {
+    color: #ffffff;
+}
+.why-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.why-us a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.attribution { 
+    text-align: center; 
+}
+.attribution a { color: #ffffff;}
